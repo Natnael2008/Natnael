@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+   
+
+    <title>Fortune Teller</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Fortune Teller
+    </h1>
+    <img src="hat.jpg" width="300" alt="Fortune Teller Hat">
+    <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
+      <label for="namefield">Name:</label>
+      <input type="text" id="namefield" name="name" placeholder="your name" required>
+      <br>
+      <label for="questionfield">Question:</label>
+      <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
+      <br>
+      <input type="submit">
+       <label for="majic ball">choose color:</label>
+      <input type="color" id="majic ball" name="name" placeholder="your name" required>
+      <label for="wish">say your wish:</label>
+      <input type="text" id="wish" name="wish" placeholder="your wish " required>
+      <p><h3>how was your day??</h3></p>
+       <label for="day"> it was good!!: </label>
+      <input type="radio" id="day" name="" placeholder="your wish " required>
+       <label for="day"> it was bad!!: </label>
+      <input type="radio" id="day" name="" placeholder="your wish " required>
+      <p> <h3>what is your favorite sport??</h3></p>
+      <select name="sports" id="sports">
+        <option value="soccer">soccer</option>
+        <option value="basketball">basketball</option>
+        <option value="tennis">tennis</option>
+      </select>
+      <label for="feedback">Leave a review:</label>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Write your review here..."></textarea>
+    </form>
+    <div id="fortune"></div>
+  </body>
+</html>
